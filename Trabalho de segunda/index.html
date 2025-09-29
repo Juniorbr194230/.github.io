@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carreira TI – Certificações Profissionais</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background-color: #00539C;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f4f4f4;
+      border-bottom: 1px solid #ccc;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #00539C;
+      font-weight: bold;
+      padding: 10px;
+    }
+    nav a:hover {
+      color: #003366;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    .cert-logo {
+      max-width: 200px;
+      display: block;
+      margin: 10px auto;
+    }
+    .comparativa-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    .comparativa-table th,
+    .comparativa-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .comparativa-table th {
+      background-color: #e2e2e2;
+    }
+    footer {
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .botao1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(10, 186, 255);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+        .botao2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+    .botao3 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+    .botao4 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2F4F4F;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+    .botao5 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.botao:hover {
+  background-color: #1abc9c;
+}
+  .linha-imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; 
+    margin: 20px;
+  }
+
+  .linha-imagens img {
+    width: 150px; 
+    height: auto;
+    border-radius: 8px;
+  }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Carreira TI – Certificações Profissionais</h1>
+  <p>Panorama, comparativo e caminhos de certificação em Cisco, Microsoft e Google Cloud</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#overview" onclick="openTab('overview')">Visão Geral</a></li>
+    <li><a href="#comparativa" onclick="openTab('comparativa')">Comparativa</a></li>
+    <li><a href="#cisco" onclick="openTab('cisco')">Cisco</a></li>
+    <li><a href="#microsoft" onclick="openTab('microsoft')">Microsoft</a></li>
+    <li><a href="#gcp" onclick="openTab('gcp')">Google Cloud</a></li>
+    <li><a href="#evolucao" onclick="openTab('evolucao')">Evolução de Carreira</a></li>
+    <li><a href="#recursos" onclick="openTab('recursos')">Recursos</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="overview" class="tab-content active">
+    <h2>Visão Geral das Certificações TI em 2025</h2>
+    <p>As certificações mais valorizadas envolvem cloud computing, segurança da informação, redes e arquiteturas híbridas/multicloud. Profissionais que dominam plataformas como Azure, Google Cloud e Cisco, além de especializações em segurança e DevOps, têm se destacado no mercado.</p>
+
+  
+</section>
+
+
+  <section id="comparativa" class="tab-content">
+    <h2>Tabela Comparativa de Certificações</h2>
+    <table class="comparativa-table">
+      <tr>
+        <th>Certificação</th>
+        <th>Empresa / Plataforma</th>
+        <th>Nível / Categoria</th>
+        <th>Perfil ideal / Pré‑requisitos</th>
+        <th>Custo estimado</th>
+        <th>Formato / Idioma / Validade</th>
+        <th>Áreas de atuação</th>
+      </tr>
+      <tr>
+        <td>CCNA</td>
+        <td>Cisco</td>
+        <td>Associate / Networking</td>
+        <td>Iniciantes em redes, técnicos; noções de TCP/IP</td>
+        <td>~ US$ 300</td>
+        <td>Prova em centros autorizados; inglês (e outros de acordo com região)</td>
+        <td>Administrador de redes, suporte de infra‑estrutura</td>
+      </tr>
+      <tr>
+        <td>CCNP</td>
+        <td>Cisco</td>
+        <td>Professional / Routing, Switching, Segurança</td>
+        <td>Experiência intermediária em redes</td>
+        <td>~ US$ 700 (core + concentração)</td>
+        <td>Prova em centros; idiomas conforme região</td>
+        <td>Engenharia de redes, projetos grandes, segurança</td>
+      </tr>
+      <tr>
+        <td>Azure Administrator Associate (AZ‑104)</td>
+        <td>Microsoft</td>
+        <td>Associate / Operações de Nuvem</td>
+        <td>Experiência básica com nuvem, conceitos de rede e segurança</td>
+        <td>~ US$ 165</td>
+        <td>Online ou presencial; múltiplos idiomas</td>
+        <td>Administração de Azure, suporte operacional</td>
+      </tr>
+      <tr>
+        <td>Azure Solutions Architect Expert (AZ‑305 / AZ‑104)</td>
+        <td>Microsoft</td>
+        <td>Expert / Arquitetura de Soluções</td>
+        <td>Experiência sólida em Azure, projetos técnicos</td>
+        <td>~ US$ 165 por exame</td>
+        <td>Online ou presencial; validade conforme política Microsoft</td>
+        <td>Arquiteto de nuvem, consultoria, desenho de infraestruturas</td>
+      </tr>
+      <tr>
+        <td>Professional Cloud Architect</td>
+        <td>Google Cloud</td>
+        <td>Professional</td>
+        <td>Experiência em GCP, entendimento de arquitetura de nuvem</td>
+        <td>~ US$ 200</td>
+        <td>Prova online ou em centro; validade ~ 2 anos; idiomas variados</td>
+        <td>Arquiteto de soluções GCP, consultoria, liderança técnica</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="cisco" class="tab-content">
+    <h2>Cisco</h2>
+
+<div class="linha-imagens">
+  <img src="cisco.png" alt="Imagem 1">
+  <img src="ccna.webp" alt="Imagem 2">
+  <img src="ccnp.png" alt="Imagem 3">
+  <img src="ccie.png" alt="Imagem 4">
+</div>
+
+    <h3>Certificações destacadas</h3>
+    <ul>
+      <li><strong>CCNA</strong>: nível associativo; ótimo para quem está começando em redes.</li>
+      <li><strong>CCNP</strong>: profissional / especialização em roteamento, switching ou segurança.</li>
+      <li><strong>CCIE</strong>: nível Expert, experiência extensa, prova teórica + prática.</li>
+    </ul>
+    <h3>Formato, custo, idioma</h3>
+    <p>As provas Cisco podem ser feitas presencialmente ou em centros autorizados. O idioma principal é o inglês, embora algumas certificações possam estar disponíveis em outras línguas dependendo da localização. Custos variam bastante conforme o nível (ex: CCNA ~ US$ 300; exames mais avançados podem ultrapassar US$ 1.500 para laboratórios práticos).</p>
+  </section>
+
+  <section id="microsoft" class="tab-content">
+    <h2>Microsoft</h2>
+
+<div class="linha-imagens">
+  <img src="microsoft.jpg" alt="Imagem 1">
+  <img src="azure.png" alt="Imagem 2">
+  <img src="af.png" alt="Imagem 3">
+  <img src="aa.png" alt="Imagem 4">
+  <img src="asa.png" alt="Imagem 5">
+</div>
+
+    <h3>Certificações destacadas</h3>
+    <ul>
+      <li><strong>AZ‑900 Azure Fundamentals</strong>: ideal para iniciantes ou gestores que querem entender noções de nuvem.</li>
+      <li><strong>AZ‑104 Azure Administrator Associate</strong>: para quem vai operar e manter recursos em Azure.</li>
+      <li><strong>Azure Solutions Architect Expert</strong>: para quem vai desenhar arquiteturas completas de soluções em Azure.</li>
+    </ul>
+    <h3>Formato, custo, idioma</h3>
+    <p>Microsoft oferece exames online ou em centros de prova autorizados. Os idiomas variam — há suporte ao português do Brasil em muitas certificações. Custo típico para exames de associate e fundamentals ~ US$ 99‑165; níveis expert têm custo por exame adicional.</p>
+  </section>
+
+  <section id="gcp" class="tab-content">
+    <h2>Google Cloud</h2>
+
+<div class="linha-imagens">
+  <img src="googlecloud.png" alt="Imagem 1">
+  <img src="acec.png" alt="Imagem 2">
+  <img src="cdl.png" alt="Imagem 3">
+  <img src="ca.png" alt="Imagem 4">
+</div>
+
+
+
+    <h3>Certificações destacadas</h3>
+    <ul>
+      <li><strong>Cloud Digital Leader</strong>: para quem quer entender os conceitos de nuvem do ponto de vista de negócio.</li>
+      <li><strong>Associate Cloud Engineer</strong>: para operar, implantar, monitorar projetos no GCP.</li>
+      <li><strong>Professional Cloud Architect</strong>: para arquitetos de solução, design de infra‑estrutura, integração de dados e segurança.</li>
+    </ul>
+    <h3>Formato, custo, idioma</h3>
+    <p>Exames via centros autorizados ou online quando disponível. Validade geralmente de 2 anos para níveis profissionais. Idiomas variam conforme país/região; o custo estimado para certificações profissionais gira em torno de US$ 200.</p>
+  </section>
+
+  <section id="evolucao" class="tab-content">
+    <h2>Aprendizado Contínuo & Evolução na Carreira</h2>
+    <p>Certificações são marcos importantes, mas devem estar integradas ao aprendizado prático, projetos reais e atualização constante. Seguem sugestões:</p>
+    
+    <h2>PLANO DE CARREIRA (curto,médio e longo prazo):</h2>
+
+<h3>1. Onde Você Está? Autoconhecimento</h3>
+
+<p>Tudo começa com uma reflexão. Antes de planejar, é preciso se conhecer.
+
+<p>Pontos Fortes & Paixões: Identifique suas habilidades naturais e o que realmente te motiva.
+
+<p>Seu Propósito: Defina o que você quer construir profissionalmente. Qual é o seu objetivo de carreira?
+
+<h3>2. Onde Você Quer Chegar? Metas & Ações</h3>
+
+<p>Um plano de carreira é uma estrada. Cada etapa tem um objetivo claro.
+
+<p>Curto Prazo (1-2 anos)
+
+<p>Foco: Construir a base.
+
+<h3>O que fazer:</h3>
+
+<p>Aprenda algo novo: Domine uma ferramenta, tecnologia ou competência que o mercado exige.
+
+<p>Busque certificações: Valide seu conhecimento com um selo oficial.
+
+<p>Faça networking: Conecte-se com pessoas estratégicas da sua área.
+
+<p>Médio Prazo (3-5 anos)
+
+<p>Foco: Crescer e se especializar.
+
+<h3>O que fazer:</h3>
+
+<p>Assuma novas responsabilidades: Busque a liderança em projetos ou equipes.
+
+<p>Invista em educação: Faça uma pós-graduação ou um MBA para se aprofundar.
+
+<p>Mude de cargo: Busque uma promoção para um nível acima.
+
+<p>Longo Prazo (5+ anos)
+
+<p>Foco: Ser referência e liderar.
+
+<h3>O que fazer:</h3>
+
+<p>Seja um líder: Alcance um cargo de gerência ou diretoria.
+
+<p>Empreenda: Inicie seu próprio negócio.
+
+<p>Deixe um legado: Torne-se um mentor ou especialista reconhecido no seu campo.
+
+<h3>3. Como Manter o Foco? Acompanhamento</h3>
+
+<p>Um plano só funciona se for acompanhado.
+
+<p>Revisite-o: Veja seu plano a cada 6 ou 12 meses e faça ajustes.
+
+<p>Peça feedback: Converse com mentores ou gestores para entender como você está indo.
+
+<p>Celebre as vitórias: Reconheça o seu progresso.1. Onde Você Está? Autoconhecimento
+
+<p>Tudo começa com uma reflexão. Antes de planejar, é preciso se conhecer.
+
+<p>Pontos Fortes & Paixões: Identifique suas habilidades naturais e o que realmente te motiva.
+
+<p>Seu Propósito: Defina o que você quer construir profissionalmente. Qual é o seu objetivo de carreira?
+
+<h3>2. Onde Você Quer Chegar? Metas & Ações</h3>
+
+<p>Um plano de carreira é uma estrada. Cada etapa tem um objetivo claro.
+
+<p>Curto Prazo (1-2 anos)
+
+<p>Foco: Construir a base.
+
+<h3>O que fazer:</h3>
+
+<p>Aprenda algo novo: Domine uma ferramenta, tecnologia ou competência que o mercado exige.
+
+<p>Busque certificações: Valide seu conhecimento com um selo oficial.
+
+<p>Faça networking: Conecte-se com pessoas estratégicas da sua área.
+
+<p>Médio Prazo (3-5 anos)
+
+<p>Foco: Crescer e se especializar.
+
+<h3>O que fazer:</h3>
+
+<p>Assuma novas responsabilidades: Busque a liderança em projetos ou equipes.
+
+<p>Invista em educação: Faça uma pós-graduação ou um MBA para se aprofundar.
+
+<p>Mude de cargo: Busque uma promoção para um nível acima.
+
+<p>Longo Prazo (5+ anos)
+
+<p>Foco: Ser referência e liderar.
+
+<h3>O que fazer:</h3>
+
+<p>Seja um líder: Alcance um cargo de gerência ou diretoria.
+
+<p>Empreenda: Inicie seu próprio negócio.
+
+<p>Deixe um legado: Torne-se um mentor ou especialista reconhecido no seu campo.
+
+<h3>3. Como Manter o Foco? Acompanhamento</h3>
+
+<p>Um plano só funciona se for acompanhado.
+
+<p>Revisite-o: Veja seu plano a cada 6 ou 12 meses e faça ajustes.
+
+<p>Peça feedback: Converse com mentores ou gestores para entender como você está indo.
+
+<p>Celebre as vitórias: Reconheça o seu progresso.</p>
+
+
+  </section>
+
+  <section id="recursos" class="tab-content">
+    <h2>Recursos Oficiais & Links Úteis</h2>
+  
+
+    
+      <ul><a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html" target="_blank" class="botao1">Cisco Certifications (site oficial)</a></ul>
+
+      <ul><a href="https://learningnetwork.cisco.com/s/ccna" target="_blank" class="botao2">CCNA – Cisco Learning Network</a></ul>
+
+      <ul><a href="https://learn.microsoft.com/credentials/browse/" target="_blank" class="botao3">Microsoft Learn – certificado Microsoft</a></ul>
+
+      <ul><a href="https://learn.microsoft.com/pt-pt/credentials/certifications/azure-virtual-desktop-specialty/?practice-assessment-type=certification" target="_blank" class="botao4">Microsoft Azure Certifications</a></ul>
+
+      <ul><a href="https://cloud.google.com/learn/certification" target="_blank" class="botao5">Google Cloud Certification</a></ul>
+
+
+      
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Carreira TI. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+  function openTab(tabId) {
+    const tabs = document.querySelectorAll('.tab-content');
+    tabs.forEach(tab => {
+      tab.classList.remove('active');
+    });
+    const sel = document.getElementById(tabId);
+    if (sel) sel.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
