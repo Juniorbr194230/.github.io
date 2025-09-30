@@ -1,9 +1,6 @@
 # Atividade sobre Certificações em TI
 
 
-Link do trabalho:
-
-
 Alunos:
 Kauan Rodrigues de Fernandes
 Osvaldo Ramalho de Sousa Junior
